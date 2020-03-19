@@ -1,9 +1,9 @@
 package models
 
-type weatherObject struct {
-	coord   coordinat
-	weather []weather
-	main    weatherMain
-	id      int
-	name    string
+type WeatherObject struct {
+	Coord   Coordinat   `json:"coord"`
+	Weather Weather     `json:"weather"`
+	Main    WeatherMain `json:"main"`
+	ID      int         `json:"id"`
+	Name    string      `json:"name"`
 }

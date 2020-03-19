@@ -1,9 +1,9 @@
 package models
 
-type weatherMain struct {
-	temp     float64
-	pressure float64
-	humidity int
-	temp_min float64
-	temp_max float64
+type WeatherMain struct {
+	Temp     int `json:"temp"`
+	Pressure int `json:"pressure"`
+	Humidity int `json:"humidity"`
+	TempMin  int `json:"temp_min"`
+	TempMax  int `json:"temp_max"`
 }

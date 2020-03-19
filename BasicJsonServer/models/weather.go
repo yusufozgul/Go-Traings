@@ -1,7 +1,7 @@
 package models
 
-type weather struct {
-	id          int
-	main        string
-	description string
+type Weather struct {
+	ID          int    `json:"id"`
+	Main        string `json:"main"`
+	Description string `json:"description"`
 }

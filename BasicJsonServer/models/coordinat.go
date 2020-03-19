@@ -1,6 +1,6 @@
 package models
 
-type coordinat struct {
-	lon float64
-	lat float64
+type Coordinat struct {
+	Lon int `json:"lon"`
+	Lat int `json:"lat"`
 }

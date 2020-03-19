@@ -1,22 +1,22 @@
-{
-    "coord":{
-    "lon":-0.13,
-    "lat":51.51
-    },
-    "weather":[
+
     {
-    "id":300,
-    "main":"Drizzle",
-    "description":"light intensity drizzle"
-    }
-    ],
-    "main":{
-    "temp":280.32,
-    "pressure":1012,
-    "humidity":81,
-    "temp_min":279.15,
-    "temp_max":281.15
-    },
-    "id":2643743,
-    "name":"London"
-    }
+        "coord":{
+        "lon":30,
+        "lat":36
+        },
+        "weather": {
+        "id":300,
+        "main":"Drizzle",
+        "description":"light intensity drizzle"
+        },
+        "main": {
+        "temp":30,
+        "pressure":1012,
+        "humidity":81,
+        "temp_min":32,
+        "temp_max":25
+        },
+        "id":26743,
+        "name":"Antalya"
+        }
+    
