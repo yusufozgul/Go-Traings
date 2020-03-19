@@ -1,4 +1,4 @@
-# Basic Weather JSON Parser and Serve Codes
+# Basic Weather JSON Parser and Serve
 
 * Read weather.json file
 *  Unmarshal Json file to weather Struct
